@@ -8,3 +8,5 @@ import os
 api_key = os.getenv('API_NAME')
 llm = ChatOpenAI(api_key=api_key)
 ```
+
+LangChain에 Chat Model만 바꿔주면 다른 model을 쉽게 연동할 수 있다.
