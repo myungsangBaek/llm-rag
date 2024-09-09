@@ -10,3 +10,7 @@ llm = ChatOpenAI(api_key=api_key)
 ```
 
 LangChain에 Chat Model만 바꿔주면 다른 model을 쉽게 연동할 수 있다.
+
+Langchain은 검색과 질의를 편하게 해준다.
+
+랭체인이 없으면 관리포인트가 매우 많아진다.
